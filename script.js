@@ -49,8 +49,8 @@ async function getWeather(city) {
 							<p> Min Temp: ${day.day.mintemp_c}°C</p>
 
 							<hr>
-							<p> Sunrise: ${day.astro.sunrise}</p>
-							<p> Sunset: ${day.astro.sunset}</p>
+							<p> <strong>Sunrise:</strong> ${day.astro.sunrise}</p>
+							<p> <strong>Sunset:</strong> ${day.astro.sunset}</p>
 						</div>
 						</div>
 					</div>
